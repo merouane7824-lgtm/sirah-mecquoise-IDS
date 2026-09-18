@@ -1,5 +1,5 @@
-const CACHE = "sirah-mecquoise-v2";
-const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./sw.js", "./icon-512.png"];
+const CACHE = "sirah-mecquoise-v3";
+const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./sw.js", "./icon-512.png", "./icon-1024.png"];
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
