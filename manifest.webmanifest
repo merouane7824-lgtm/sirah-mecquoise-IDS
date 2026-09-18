@@ -1,0 +1,10 @@
+{
+  "name": "La Sîrah — Partie mecquoise",
+  "short_name": "La Sîrah",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF8F3",
+  "theme_color": "#0A1A5C",
+  "lang": "fr",
+  "icons": []
+}
