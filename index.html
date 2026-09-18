@@ -6,8 +6,9 @@
 <meta name="theme-color" content="#0A1A5C">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="La Sîrah — Partie mecquoise">
+<meta name="apple-mobile-web-app-title" content="La Sîrah">
 <link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-512.png">
 <title>La Sîrah — Partie mecquoise</title>
 <style>
 :root{
@@ -2591,7 +2592,7 @@ document.getElementById('hSearch').addEventListener('keydown',function(e){
 <script>
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   window.addEventListener('load', function () {
-    navigator.serviceWorker.register('./sw.js').catch(function () {});
+    navigator.serviceWorker.register('./sw.js').catch(function(){});
   });
 }
 </script>
